@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <div id="esquerda">
+            <h1>Null Site</h1>
+            <h2>Acesse meu instagram <a href="https://instagram.com/kauanunnes" target="_blank">aqui!</a> </h2>
+            <p>
+                Algumas dos nossos cursos:
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>PHP</li>
+                    <li>Java</li>
+                </ul>
+            </p>
+            <p> Algumas tecnologias que nós utilizaremos:
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                </ol>
+            </p>
+            <!--<img src="./img/desktop.png" alt="computador">-->
+            
+        </div>
+        <div id="direita">
+            <fieldset> 
+            <legend>Cadastro</legend>
+                <form action="#" method="POST" id="formulario">
+                <p>
+                    <label for="nome">Nome: <br> 
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                    </label>
+                </p> 
+                <p>
+                    <label for="contato">Número de telefone: <br>
+                        <input type="number" name="contato" id="contato" placeholder="Digite seu telefone com DDD">
+                    </label>
+                </p>
+                <p>
+                    <label for="email">Email: <br> 
+                        <input type="email" name="email" id="email" required>
+                    </label>
+                </p>
+                <p>
+                    <label id="escolha"> Escolha seu curso: <br>
+                        <select name="cursos" id="cursos">
+                            <option value="vazio" selected>--</option>
+                            <option value="Informática">Informática</option>
+                            <option value="Administração">Administração</option>
+                            <option value="Eletrotécnica">Eletrotécnica</option>
+                            <option value="Estética">Estética</option>
+                        </select>
+                    </label> 
+                </p>
+                    <button value="Enviar" onclick="alert('Dados enviados com sucesso.')">Enviar</button>
+                 </form>
+                </fieldset>
+           
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

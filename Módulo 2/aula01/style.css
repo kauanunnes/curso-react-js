@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    color:rgb(255, 191, 73);
+    font-family:'Lato', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(51, 122, 255);
+    transition: all .5s;
+    height: 100%;
+    margin: 0 5px;
+    font-size: 1rem;
+}
+
+a{
+    color:rgb(255, 191, 73);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+#direita{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+fieldset{
+    border-radius:5px;
+    box-shadow: 5px 8px rgba(252, 196, 113, 0.5);
+    
+    
+}
+form{
+    margin: 2px 5px 5px 5px;
+    padding: 5px;
+}
+form input, form select, option{
+    width: 30%;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px rgba(0, 0, 0, 0.308);
+    background-color: rgb(255, 234, 195);
+    color:rgb(51, 122, 255);
+}
+button{
+    background-color: rgb(255, 234, 195);
+    border:0;
+    border-radius: 2px;
+    color:rgb(51, 122, 255);
+    width: 50px;
+    height: 25px;
+}

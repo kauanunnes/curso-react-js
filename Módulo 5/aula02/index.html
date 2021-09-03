@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+      <div id="bg"></div>
+        <div>
+          <form action="/action_page.php">
+            <h3>
+              Register
+            </h3>
+            <label for="fname">Company Name</label>
+            <input type="text" id="companyName" placeholder="Company name..">
+        
+            <label for="lname">Contact Name</label>
+            <input type="text" id="contactName" placeholder="Contact name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            </select>
+            <p>If your country doesn't have on list click below <br>
+              <input type="button" value="Add Country" id="button" onclick="addNewCountry()">
+            </p>
+            <input type="button" value="Submit" onclick="addNewValues()">
+          </form>
+        </div>
+        <table id="customers">
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+        </table>
+      </main>
+    <script src="./script.js"></script>
+</body>
+</html>
